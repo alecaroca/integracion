@@ -1,0 +1,29 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer{
+    text-align: center;
+    background: url(./imagenes/bg.jpg);
+    padding: 140px;
+  
+ 
+}
+
+.copyright{
+    color: #FFFFFF;
+    font-size: 13px;
+    margin-top: 10px;
+}
+.caja{
+    text-align: center;
+    vertical-align: center;
+    
+    margin: 0 auto;
+    
+}
+h1{
+    display: inline-block;
+    padding-left: 100px;
+    color: black;   
+}
