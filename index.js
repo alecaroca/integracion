@@ -23,19 +23,10 @@ const aplication = document.querySelector('.app');
         })
         .catch(error => console.log(error))
     
-    fetch('https://alecaroca-vigilant-fishstick-4pr9vw954qwh7qxj-8000.preview.app.github.dev/Cliente', {
-        
-        headers: {
-          'Content-type': 'application/json; charset=UTF-8',
-        },
-     
-      })
+    fetch(API_URL2)
         .then(response=> response.json())
-        .then(data2 => {
-            console.log(data2)
-            
-        
-        })
+        .then(data2 => {console.log(data2)
+})
         .catch(error => console.log(error))
 
 
